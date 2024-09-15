@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="My Test Suite" thread-count="2" parallel="tests" >
+
+    <!--<test name="Firefox TestCase"  thread-count="2" parallel="methods">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="org.selenium.tests.MyFirstTestCase"/>
+        </classes>
+    </test>-->
+
+    <test name="Chrome TestCase"  thread-count="5" parallel="methods">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="org.selenium.tests.LoginTest"/>
+            <class name="org.selenium.tests.AccountTest"/>
+            <class name="org.selenium.tests.AddToCartTest"/>
+            <class name="org.selenium.tests.CheckoutTest"/>
+            <class name="org.selenium.tests.CouponTest"/>
+            <class name="org.selenium.tests.NavigationTest"/>
+            <class name="org.selenium.tests.SearchTest"/>
+        </classes>
+    </test>
+
+</suite>
