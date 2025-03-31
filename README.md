@@ -55,8 +55,5 @@ mvn clean test
 ## 🤝 Contribution
 Feel free to fork the repository, create a new branch, and submit a **Pull Request**.
 
-## 📜 License
-This project is licensed under the **MIT License**.
-
 ---
 🚀 **Happy Testing!** 🛒
